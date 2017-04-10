@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/style/semantic.min.css">
+    <link rel="stylesheet" href="/style/project.css">
+    <script type="text/javascript" src="/js/bower_final.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="preload">
+    <div></div>
+</div> 
+<nav class="nav">
+    <div class="navigation">
+        <div class="nav__logo">
+            <img src="img/logo1.png" height="45" width="230" alt="Ирон" >
+        </div>
+        <div class="nav__menu">
+            <ul>
+                <li><a href="">Моя страница</a></li>
+                <li><a href="">Друзья</a></li>
+                <li><a href="">Фотографии</a></li>
+                <li><a href="">Фамильные Группы</a></li>
+                <li><a href="">Группы</a></li>
+                <li><a href="">Учим Осетинский Язык</a></li>
+                <li><a href="" class="nav__menu__price">Магазин</a></li>
+                <li><a href="">Выход</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="clear"></div>
+<div class="background_slider">
+    <div class="user">
+        <div class="user__avatar">
+
+        </div>
+        <div class="user__info">
+            <div class="nameUser"></div>
+            <div class="blurBlock"></div>
+        </div>
+
+    </div>
+</div>
+<div class="clear"></div>
+<div class="whitepolosa"></div>
+<!--Главное тело сайта-->
+<div class="mainField">
+    <!--Информационный блок сверху о каждой страницен-->
+    <div class="pageinfo">
+        <h1>Новости</h1>
+        <img src="img/logoir.png" width="35" height="35" alt="">
+    </div>
+    <!--Информационный блок сверху о каждой страницен-->
+    <!--Правый блок который содержит блоки друзья, аудио, видео и реклама-->
+    <div class="leftBlockWrapper">
+        <!--блок друзья-->
+        <div class="mainField__leftblockOnlineFriends">
+            <!--шапка блока друзья-->
+            <div class="mainField__leftblockOnlineFriends__nameBlock">
+                <img class="icon" src="img/namegif.png" width="20" height="20">
+                <h3>Друзья</h3>
+            </div>
+            <!--шапка блока друзья-->
+            <!--тело блока друзья-->
+            <div class="mainField__leftblockOnlineFriends__listFriends">
+                <div class="friendsBlock"><div class="friendsBlock__userlist" id="friends1"></div><span>Георгий</span></div>
+                <div class="friendsBlock"><div class="friendsBlock__userlist" id="friends2"></div><span>Владимир</span></div>
+                <div class="friendsBlock"><div class="friendsBlock__userlist" id="friends3"></div><span>Илья</span></div>
+                <div class="friendsBlock"><div class="friendsBlock__userlist" id="friends4"></div><span>Нодар</span></div>
+                <div class="friendsBlock"><div class="friendsBlock__userlist" id="friends5"></div><span>Аслан</span></div>
+                <div class="friendsBlock"><div class="friendsBlock__userlist" id="friends6"></div><span>Никита</span></div>
+                <div class="clear"></div>
+            </div>
+            <!--тело блока друзья-->
+        </div>
+        <!--блок друзья-->
+        <!--блок аудиозаписи-->
+        <div class="leftblockAudio">
+            <!--шапка блока аудиозаписи-->
+            <div class="mainField__leftblockOnlineFriends__nameBlock">
+                <img class="icon" src="img/audio.png" width="20" height="20">
+                <h3>Аудиозаписи</h3>
+            </div>
+            <!--шапка блока аудиозаписи-->
+            <!--тело блока аудиозаписи-->
+            <div class="leftblockAudio__audiolist">
+                <div id="audio1" class="audiomuz"></div>
+                <div id="audio2" class="audiomuz"></div>
+                <div id="audio3" class="audiomuz"></div>
+                <div class="clear"></div>
+            </div>
+            <!--тело блока аудиозаписи-->
+        </div>
+        <!--блок аудиозаписи-->
+        <div class="leftblockvideo">
+            <!--шапка блока аудиозаписи-->
+            <div class="mainField__leftblockOnlineFriends__nameBlock">
+                <img class="icon" src="img/videoicon.png" width="20" height="20">
+                <h3>Видеозаписи</h3>
+            </div>
+            <!--шапка блока аудиозаписи-->
+            <!--тело блока аудиозаписи-->
+            <div class="leftblockvideo__videolists">
+                <div id="video1" class="videolist"></div>
+                <div id="video2" class="videolist"></div>
+                <div id="video3" class="videolist"></div>
+                <div id="video4" class="videolist"></div>
+                <div class="clear"></div>
+            </div>
+            <!--тело блока аудиозаписи-->
+        </div>
+    </div>
+    <!--Правый блок который содержит блоки друзья, аудио, видео и реклама-->
+
+    <div class="centerBlockWrapper">
+        <div id="news1" class="news">
+            <div class="news__user">
+                <div class="news__user__ava"></div>
+                <div class="news__user__autor"><a href="#">Владимир Иванов</a></div>
+                <div class="news__user__date">7 апреля в 20:12</div>
+                <div class="news__user__setting">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="news__block"></div>
+            <div class="news__comment"></div>
+        </div>
+        <div id="news2" class="news"></div>
+        <div id="news3" class="news"></div>
+    </div>
+
+
+    <div class="rightBlockWrapper"></div>
+
+</div>
+<!--Главное тело сайта-->
+<footer>
+
+</footer>
+<script type="text/javascript" src="/js/final.js"></script>
+</body>
+</html>
